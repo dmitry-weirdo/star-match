@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App renders ansd increments counter 2`] = `
+exports[`App renders and increments counter 2`] = `
 <DocumentFragment>
   <div>
     <h1>
