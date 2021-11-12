@@ -1,5 +1,5 @@
 module.exports = {
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   env: {
     browser: true,
     commonjs: true,
@@ -13,6 +13,7 @@ module.exports = {
       jsx: true,
     },
     sourceType: 'module',
+    requireConfigFile: false
   },
   plugins: ['react', 'react-hooks'],
   extends: [
